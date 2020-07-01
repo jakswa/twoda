@@ -1,6 +1,10 @@
 class Call
   @calls = []
 
+  def self.delete(network_id)
+    @calls.delete_if { |c| c.network_id == network_id }
+  end
+
   def self.find(network_id)
     @calls.find { |c| c.network_id == network_id }
   end
