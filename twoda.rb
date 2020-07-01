@@ -15,7 +15,6 @@ class Twoda < Roda
       end
 
       r.post 'hold' do
-        # todo: hold
         r.redirect
       end
     end

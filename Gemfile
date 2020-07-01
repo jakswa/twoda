@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
+gem 'rack'
+gem 'tilt'
 gem 'roda'
-gem 'twilio'
+gem 'twilio-ruby'
 gem 'dotenv'
