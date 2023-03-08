@@ -9,7 +9,7 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    rack (2.2.3)
+    rack (2.2.6.3)
     roda (3.33.0)
       rack
     tilt (2.0.10)
